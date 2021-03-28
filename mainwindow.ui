@@ -44,7 +44,7 @@
          <string/>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="tab_default">
          <property name="whatsThis">
@@ -138,7 +138,7 @@
                    </size>
                   </property>
                   <property name="text">
-                   <string>Up</string>
+                   <string>Up (+10)</string>
                   </property>
                  </widget>
                 </item>
@@ -194,7 +194,7 @@
                    </size>
                   </property>
                   <property name="text">
-                   <string>Down</string>
+                   <string>Down (-10)</string>
                   </property>
                  </widget>
                 </item>
