@@ -44,9 +44,12 @@
          <string/>
         </property>
         <property name="currentIndex">
-         <number>1</number>
+         <number>2</number>
         </property>
-        <widget class="QWidget" name="tab_default">
+        <property name="movable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="tab_SetHight">
          <property name="whatsThis">
           <string/>
          </property>
@@ -92,7 +95,7 @@
           </item>
          </layout>
         </widget>
-        <widget class="QWidget" name="tab_1">
+        <widget class="QWidget" name="tab_Stepwise">
          <attribute name="title">
           <string>Stepwise</string>
          </attribute>
@@ -232,6 +235,11 @@
           </item>
          </layout>
         </widget>
+        <widget class="QWidget" name="tab_SetReference">
+         <attribute name="title">
+          <string>Seite</string>
+         </attribute>
+        </widget>
        </widget>
       </item>
       <item>
@@ -277,32 +285,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QTextBrowser" name="textBrowser">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>0</width>
-        <height>20</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>16777215</width>
-        <height>30</height>
-       </size>
-      </property>
-      <property name="baseSize">
-       <size>
-        <width>0</width>
-        <height>0</height>
-       </size>
-      </property>
-     </widget>
+     <widget class="QLineEdit" name="lineEdit"/>
     </item>
    </layout>
   </widget>
